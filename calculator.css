@@ -1,0 +1,88 @@
+body {
+  height: 100%;
+  /* width: 100%; */
+  color: whitesmoke;
+  background-color: rgb(12, 8, 39);
+  display: flex;
+  flex-direction: column;
+}
+.screen {
+  border: 2px solid rgb(20 28 48);
+  display: inline-block;
+  height: 80px;
+  width: 440px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgb(9, 9, 33);
+  border-radius: 15px;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.keypad {
+  border: 2px solid rgb(20 28 48);
+  border-radius: 15px;
+  /* display: inline-block; */
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(9, 9, 33);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding: 20px;
+}
+.simple-box {
+  /* border: 2px solid green; */
+  height: 150%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  grid-template-rows: auto auto auto auto;
+}
+.special-box {
+  /* border: 2px solid yellow; */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  margin-top: 105px;
+  height: 60px;
+}
+.simple-bt {
+  background-color: cornsilk;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 25px;
+}
+.special {
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 25px;
+  background-color: rgb(9, 9, 33);
+  color: white;
+}
+
+button:hover {
+  background-color: brown;
+  cursor: pointer;
+  color: aliceblue;
+}
+.special:hover {
+  background-color: rgb(133, 6, 6);
+  cursor: pointer;
+  color: aliceblue;
+  /* border: 2px solid red; */
+}
+.sign {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+.signature {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  font-weight: 600;
+  color: #4f9ad2;
+}
